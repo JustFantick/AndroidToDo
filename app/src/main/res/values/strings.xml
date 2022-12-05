@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="my_notes">My notes</string>
+    <string name="my_tasks">My tasks</string>
+    <string name="notebook">Notebook</string>
+    <string name="createBtn">Create</string>
+    <string name="add_note_btn">Note</string>
+    <string name="add_task_btn">Task</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hint_notes_title">Write note`s title</string>
+    <string name="hint_notes_text">Enter note`s text</string>
+    <string name="greeting">Have a good day!</string>
+    <string name="notebook_edt_txt_hint">Enter your text here, please</string>
+    <string name="edt_txt_add_task_hint">Test task exe</string>
+</resources>

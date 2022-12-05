@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="140dp"
+    android:layout_marginLeft="15dp"
+    android:background="@drawable/round_gray_border"
+    android:orientation="vertical"
+    android:id="@+id/linLayNote">
+
+    <TextView
+        android:id="@+id/tvNoteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/inter_bold"
+        android:maxLines="1"
+        android:text="What needs to do trylalal"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvNoteText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:fontFamily="@font/inter_bold"
+        android:text="Lorem ipsum dolor sit amet,  none talor"
+        android:textColor="@color/textGray"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvNoteEditTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="last edit"
+        android:textColor="@color/textDarkGray"
+        android:textSize="8sp" />
+</LinearLayout>
